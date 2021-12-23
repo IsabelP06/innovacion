@@ -1,0 +1,78 @@
+.img-login{
+    height:100vh;
+    background-image: url(../assets/img/login2.png);
+    background-size: cover;
+}
+.button-login{
+    background-color: greenyellow;
+    color: black;
+}
+.bg-transparent{
+    background-color: transparent !important;
+    border: 0px;
+}
+.fs-12{
+    font-size:1.2em;
+}
+.p-absolute{
+    position:absolute;
+}
+
+.logos{
+    width:30%;
+    margin-left: 35%;
+    margin-top: -50px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: black;
+}
+.circle-1{
+    
+    width:50px;
+    height:50px;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+
+.circle-2{
+    
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+.circle-4{
+    width:350px;
+    height:350px;
+    position: absolute;
+    top: 10vh;
+    z-index: -10;
+    left: -40px;
+}
+.welcome-text{
+    height:300px;
+    font-size: 2em;
+    font-weight: bold;
+}
+@media screen and (max-width:760px){
+    .img-login,.circle-1,.circle-2{
+        display: none;
+    }
+    .logos{
+        width:40%;
+        margin-left:30%;
+        margin-top: 30px;
+    }
+  
+}
+@media screen and (max-width:500px){
+    .logos{
+        width:80%;
+        margin-left:10%;
+        margin-top: 30px;
+    }
+}
